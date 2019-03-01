@@ -16,8 +16,7 @@ fetch("https://api.themoviedb.org/3/trending/movie/week?api_key=6bfaf526eab3a7d1
       moviePoster[i].setAttribute("alt",data.results[i].original_title);
       movieTitle[i].innerHTML= data.results[i].original_title;
       movieOverview[i].innerHTML= data.results[i].overview; 
-        }
-      }
+    }
   });
 
 //https://youtube.com/embed/ID?autoplay=1&controls=0&showinfo=0&autohide=1
